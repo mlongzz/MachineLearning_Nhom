@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-10-28T09:06:10.215866+00:00",
+  "python": "3.13.2",
+  "sklearn": "1.8.0",
+  "pandas": "3.0.2",
+  "data_path": "D:\\\u0111\u1ed3 \u00e1n m\u00e1y h\u1ecdc\\AI4I_KhoiDau\\ai4i2020.csv",
+  "n_train": 7000,
+  "n_validation": 1500,
+  "n_test": 1500,
+  "features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "seed": 42,
+  "test_evaluated": false,
+  "note": "Initial fixed configurations; no parameter or threshold tuning."
+}

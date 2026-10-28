@@ -1,0 +1,3 @@
+model,parameters,split,seed,evaluation_set,precision,recall,f1,roc_auc,average_precision,notes
+Dummy,"{'constant': None, 'random_state': None, 'strategy': 'most_frequent'}",70/15/15 stratified,42,validation,0.0,0.0,0.0,0.5,0.034,
+LogisticRegression,"{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': 0.0, 'max_iter': 1000, 'n_jobs': None, 'penalty': 'deprecated', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",70/15/15 stratified,42,validation,0.13653136531365315,0.7254901960784313,0.22981366459627328,0.8750321384592484,0.3829018996124119,
