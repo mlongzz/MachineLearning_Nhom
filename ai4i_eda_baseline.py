@@ -171,7 +171,7 @@ def main(data_path, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", default=r"D:\đồ án máy học\ai4i2020.csv")
+    parser.add_argument("--data", default=str(Path(__file__).resolve().with_name("ai4i2020.csv")))
     parser.add_argument("--output", default=str(Path(__file__).resolve().parent / "results" / "comparison_5_models"))
     args = parser.parse_args()
     main(args.data, args.output)
