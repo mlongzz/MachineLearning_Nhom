@@ -5,6 +5,27 @@ Ghi theo ngày Việt Nam (UTC+7). Cập nhật mới đặt ở trên, giữ l�
 
 ---
 
+## 02/11/2026 · Lần 01
+### Kiểm tra sau merge & sửa đường dẫn dữ liệu
+
+**Người thực hiện:** Cần bổ sung tên thành viên theo đóng góp thực tế.
+
+| Đã thực hiện | Kết quả |
+|---|---|
+| Kiểm tra file sau merge | Không phát hiện dấu xung đột trong các file đã quét |
+| Kiểm tra cú pháp | Mã Python và các ô Python notebook hợp lệ; chưa chạy toàn bộ notebook bằng Jupyter |
+| Sửa đường dẫn CSV mặc định | Tự tìm `ai4i2020.csv` cạnh file chương trình |
+| Chạy lại 5 mô hình | Hoàn tất; metrics và cách chia dữ liệu khớp lần trước |
+| Kiểm tra Git | Merge đã hoàn tất; bản sửa mã có trong commit `24fad28` |
+
+**Kết quả:** Gradient Boosting giữ nguyên Precision **0,8824**, Recall **0,5882**, F1 **0,7059**; bỏ sót **21/51 lỗi**, có **4 báo động giả**. Tập test chưa được sử dụng; kết quả cũ được giữ nguyên.
+
+**Minh chứng:** Commit `24fad28` · [Mã chương trình](ai4i_eda_baseline.py) · [Kết quả đối chiếu trước đó](results/comparison_5_models/experiment_log.csv). Kết quả chạy kiểm tra mới được lưu riêng ngoài repository, chưa bổ sung vào bộ nộp.
+
+**Tiếp theo:** Hoàn thiện báo cáo Word, slide, thông tin thành viên và phân công; tiếp tục tối ưu mô hình sau khi lưu mốc giữa kỳ.
+
+---
+
 ## 28/10/2026 · Lần 02
 ### Hoàn thiện tài liệu & tổ chức dự án
 
