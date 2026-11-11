@@ -125,3 +125,4 @@ probability = model.predict_proba(raw)[:, 1]
 Nguồn dữ liệu: [UCI AI4I 2020](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset), DOI 10.24432/C5HS5C, CC BY 4.0. Dữ liệu mô phỏng phục vụ học tập, không có target thời gian còn lại để khẳng định dự đoán hỏng trước một số giờ cụ thể.
 
 Mã và tài liệu có hỗ trợ từ AI. Nhóm cần hiểu phương pháp, điền đóng góp thực tế và chịu trách nhiệm nội dung nộp.
+.\.venv\Scripts\python.exe -m ai4i

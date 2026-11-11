@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-11-11T23:52:08+07:00",
+  "data_sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+  "config_signature": "1c1584ec8769bf20f734a4e1f2ef03c6791c5d53171068337e6e5bfae4b941bd",
+  "code_sha256": {
+    "__init__.py": "4762d768512a8b8f4f51b3c703adb4d4dfeff98951585a9e9afee8cb1d8fd6c9",
+    "__main__.py": "102942c02cdbea1e98069b7486b9c6e21d2694d84d78fca0ff104d352566d68b",
+    "cli.py": "8d094f997f2d8afbadd12e7bf5869f3fc9e80f335c38d361e67f9ac8be9e73f2",
+    "config.py": "23fd1a6461fd82c0e1f53122152b280a7a842ed2949bdaa3c27b08ff6398b156",
+    "data.py": "2d8558398f473d2e1975792dab4d1490417ac86a5e4607a4dbc8de8364dfbed6",
+    "eda.py": "d37307f33f6737df303ae87823ad976db4e90a88f863e63d0700d21cfb2b5bb2",
+    "experiments.py": "61c36e44eef3f975f935cf34ca7f3c4bdbde576114f4a28f8f49a881833a2f21",
+    "figures.py": "8de4c7de00e5e71e9ac8e4decb76453880329d028dde2b6701665cb531579b03",
+    "metrics.py": "0af386c294b7f4065dde33c0b8fac05d78dcf90cc3b5fff9aa3ca104fec725db",
+    "models.py": "bef09237831d60bf427cfe431ad62b377e9e9900d2737ba9511da97a626aeb62",
+    "reporting.py": "9996fadbc4b7a3e978043104501fb73a294c824e200f24c329d204cf4bfd544e",
+    "storage.py": "df7c4a73602030f0c87ba944b4af0efa1b692544a6c3b3b776ad3ae1add37a5a",
+    "summary.py": "ead245827e26fbd1fc3fef5dac2122d28572388bd08bdf774c639e28a0613e7b",
+    "training.py": "833549fc9d46da83f82fcbf80983bc311c81c82f59d81e7b73abf4212aabf58c",
+    "verification.py": "20aef1cdd0e48d6a042697362762abb36ad698beba412516d7ca594bd2655e69"
+  },
+  "python": "3.13.2",
+  "dependencies": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "seed": 42,
+  "cv": "StratifiedKFold(3, shuffle=True, random_state=42)",
+  "cv_scoring": "F1 of class 1",
+  "n_train": 7000,
+  "n_validation": 1500,
+  "n_test": 1500,
+  "test_evaluated": false,
+  "inference_input": "six raw input columns",
+  "note": "Fresh rerun; not additional independent validation evidence."
+}

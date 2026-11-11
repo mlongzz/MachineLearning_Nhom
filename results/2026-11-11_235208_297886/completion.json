@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-11-11T23:53:42+07:00",
+  "successful_runs": 17,
+  "baseline_runs": 5,
+  "additional_runs": 12,
+  "execution_error_count": 0,
+  "warning_count": 0,
+  "verified_models": 17,
+  "test_evaluated": false
+}
