@@ -1,5 +1,15 @@
 # Nhật ký đồ án
 
+## 11/11/2026
+
+- Hoàn thiện EDA chính thức cho lần chạy baseline đầu tiên từ dữ liệu nguồn và log lịch sử ngày 28/10/2026.
+- Bổ sung từ điển dữ liệu, kiểm tra nhãn, phân tích IQR, tỷ lệ lỗi theo Type với khoảng Wilson 95%, phân tích quan hệ đặc trưng và 5 ma trận nhầm lẫn validation.
+- Gom mã EDA, bảng, 10 hình, nhận xét và thông tin tái lập vào một notebook đã thực thi. Xóa script tạo báo cáo và các file EDA xuất phụ.
+- Đối chiếu precision, recall, F1 bằng TN/FP/FN/TP và kiểm tra số lượng mẫu validation với phép chia seed 42.
+- Chạy Run All từ thư mục `notebooks`, xác nhận đủ 10 hình, 10 bảng và toàn bộ cell thực thi thành công. Dữ liệu, phép chia và log baseline khớp với commit lịch sử `8bb8490`.
+
+**Minh chứng** nằm trong [notebook EDA](notebooks/02_eda_lan_chay_dau.ipynb).
+
 ## 06/11/2026
 
 **Đã làm**

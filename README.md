@@ -19,6 +19,12 @@ Lần chạy mới nhất: **06/11/2026, 16:34–16:35 (UTC+7)**. Hoàn tất **
 
 ## Cài đặt và chạy
 
+### EDA chính thức cho lần chạy baseline đầu tiên
+
+Xem [notebook EDA lần chạy đầu](notebooks/02_eda_lan_chay_dau.ipynb). File chứa toàn bộ mã EDA, bảng số liệu, 10 hình và nhận xét, cùng kết quả validation của 5 thuật toán trong log lần đầu. Bản EDA được tái lập từ dữ liệu nguồn hiện tại và log lịch sử ngày 28/10/2026.
+
+Chọn kernel Python đã cài các thư viện trong `requirements.txt`, chọn Restart Kernel rồi Run All để chạy lại. Notebook đọc dữ liệu tại `data/ai4i2020.csv` và log tại `experiments/history/comparison_5_models.csv`. Kết quả, hash nguồn và phiên bản thư viện hiển thị trực tiếp trong notebook.
+
 Môi trường đã kiểm chứng: **Python 3.13.2**, các thư viện cố định phiên bản trong `requirements.txt`. Mở terminal tại thư mục có README này.
 
 ```powershell
