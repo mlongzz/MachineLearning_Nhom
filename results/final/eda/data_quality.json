@@ -1,0 +1,10 @@
+{
+  "rows": 10000,
+  "columns": 14,
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "failure_count": 339,
+  "failure_percent": 3.39,
+  "decision": "Keep source target and valid outliers; no missing-value imputation or SMOTE.",
+  "mode_mismatch_count": 27
+}
