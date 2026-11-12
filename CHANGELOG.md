@@ -1,5 +1,16 @@
 # Nhật ký đồ án
 
+## 12/11/2026
+
+- Chạy 17 mô hình gồm 5 baseline E00 và 12 mô hình E01–E03; lưu mô hình, dự đoán validation, độ đo và ma trận nhầm lẫn.
+- Thực hiện E01 với đặc trưng bổ sung, E02 với tìm tham số bằng CV và E03 kết hợp đặc trưng bổ sung với tìm tham số.
+- Bổ sung EDA, so sánh kết quả qua các đợt và minh chứng cấu trúc/độ quan trọng đặc trưng của bốn thuật toán.
+- Kiểm chứng lại cả 17 mô hình đã lưu, gồm dự đoán, xác suất, độ đo validation, F1 train, kết quả CV và phép chia dữ liệu. Không có lỗi hoặc cảnh báo thực thi.
+
+**Kết quả:** Gradient Boosting E01 và E03 cùng đạt F1 validation 0,9149, Recall 0,8431, TP 43, FN 8 và FP 0. Test chưa được đánh giá; kết quả chưa phải xác nhận độc lập.
+
+**Minh chứng:** [Tóm tắt kết quả](results/2026-11-12_194905_617600/SUMMARY.md), [log thí nghiệm](results/2026-11-12_194905_617600/experiment_log.csv), [kiểm chứng mô hình](results/2026-11-12_194905_617600/verification.json), [EDA và minh chứng thuật toán](results/2026-11-12_194905_617600/).
+
 ## 11/11/2026
 
 - Hoàn thiện EDA chính thức cho lần chạy baseline đầu tiên từ dữ liệu nguồn và log lịch sử ngày 28/10/2026.
