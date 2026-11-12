@@ -1,0 +1,12 @@
+feature,coefficient
+num__Air temperature [K],0.2683638157876078
+num__Process temperature [K],-0.11382357123651714
+num__Rotational speed [rpm],2.5636970934359344
+num__Torque [Nm],8.138818439285457
+num__Tool wear [min],2.4735109632216914
+num__Temperature difference [K],-0.7066949407649643
+num__Estimated power [W],-4.3648367738918745
+num__Wear torque [minNm],-1.369896548168875
+cat__Type_H,-0.5701479576093775
+cat__Type_L,-0.20354363383984836
+cat__Type_M,-0.6785834419075523

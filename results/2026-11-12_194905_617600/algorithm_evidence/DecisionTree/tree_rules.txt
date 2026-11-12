@@ -1,0 +1,196 @@
+|--- num__Rotational speed [rpm] <= -0.85
+|   |--- num__Temperature difference [K] <= -1.34
+|   |   |--- num__Process temperature [K] <= 1.38
+|   |   |   |--- num__Rotational speed [rpm] <= -0.88
+|   |   |   |   |--- num__Temperature difference [K] <= -1.44
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__Temperature difference [K] >  -1.44
+|   |   |   |   |   |--- num__Tool wear [min] <= 0.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- num__Tool wear [min] >  0.99
+|   |   |   |   |   |   |--- num__Tool wear [min] <= 1.26
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Tool wear [min] >  1.26
+|   |   |   |   |   |   |   |--- num__Rotational speed [rpm] <= -1.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- num__Rotational speed [rpm] >  -1.09
+|   |   |   |   |   |   |   |   |--- num__Torque [Nm] <= 1.04
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- num__Torque [Nm] >  1.04
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- num__Rotational speed [rpm] >  -0.88
+|   |   |   |   |--- num__Estimated power [W] <= 1.94
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__Estimated power [W] >  1.94
+|   |   |   |   |   |--- class: 1
+|   |   |--- num__Process temperature [K] >  1.38
+|   |   |   |--- num__Torque [Nm] <= 0.86
+|   |   |   |   |--- class: 0
+|   |   |   |--- num__Torque [Nm] >  0.86
+|   |   |   |   |--- class: 0
+|   |--- num__Temperature difference [K] >  -1.34
+|   |   |--- num__Wear torque [minNm] <= 2.37
+|   |   |   |--- num__Estimated power [W] <= 2.54
+|   |   |   |   |--- num__Tool wear [min] <= 1.49
+|   |   |   |   |   |--- num__Air temperature [K] <= 1.12
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- num__Air temperature [K] >  1.12
+|   |   |   |   |   |   |--- num__Air temperature [K] <= 1.17
+|   |   |   |   |   |   |   |--- num__Temperature difference [K] <= -0.54
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- num__Temperature difference [K] >  -0.54
+|   |   |   |   |   |   |   |   |--- cat__Type_L <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cat__Type_L >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Air temperature [K] >  1.17
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__Tool wear [min] >  1.49
+|   |   |   |   |   |--- num__Tool wear [min] <= 1.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- num__Tool wear [min] >  1.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- num__Estimated power [W] >  2.54
+|   |   |   |   |--- class: 1
+|   |   |--- num__Wear torque [minNm] >  2.37
+|   |   |   |--- cat__Type_M <= 0.50
+|   |   |   |   |--- num__Rotational speed [rpm] <= -0.88
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__Rotational speed [rpm] >  -0.88
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cat__Type_M >  0.50
+|   |   |   |   |--- num__Torque [Nm] <= 2.07
+|   |   |   |   |   |--- num__Torque [Nm] <= 1.56
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- num__Torque [Nm] >  1.56
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__Torque [Nm] >  2.07
+|   |   |   |   |   |--- class: 1
+|--- num__Rotational speed [rpm] >  -0.85
+|   |--- num__Tool wear [min] <= 1.52
+|   |   |--- num__Estimated power [W] <= -2.60
+|   |   |   |--- class: 1
+|   |   |--- num__Estimated power [W] >  -2.60
+|   |   |   |--- num__Torque [Nm] <= 1.70
+|   |   |   |   |--- num__Tool wear [min] <= 1.49
+|   |   |   |   |   |--- num__Rotational speed [rpm] <= -0.55
+|   |   |   |   |   |   |--- num__Rotational speed [rpm] <= -0.56
+|   |   |   |   |   |   |   |--- num__Temperature difference [K] <= -0.94
+|   |   |   |   |   |   |   |   |--- cat__Type_M <= 0.50
+|   |   |   |   |   |   |   |   |   |--- num__Wear torque [minNm] <= -1.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- num__Wear torque [minNm] >  -1.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cat__Type_M >  0.50
+|   |   |   |   |   |   |   |   |   |--- num__Process temperature [K] <= 0.57
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- num__Process temperature [K] >  0.57
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- num__Temperature difference [K] >  -0.94
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Rotational speed [rpm] >  -0.56
+|   |   |   |   |   |   |   |--- num__Tool wear [min] <= -0.44
+|   |   |   |   |   |   |   |   |--- num__Temperature difference [K] <= 0.06
+|   |   |   |   |   |   |   |   |   |--- num__Estimated power [W] <= -0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- num__Estimated power [W] >  -0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- num__Temperature difference [K] >  0.06
+|   |   |   |   |   |   |   |   |   |--- num__Estimated power [W] <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- num__Estimated power [W] >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- num__Tool wear [min] >  -0.44
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- num__Rotational speed [rpm] >  -0.55
+|   |   |   |   |   |   |--- num__Estimated power [W] <= -1.10
+|   |   |   |   |   |   |   |--- num__Estimated power [W] <= -1.13
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- num__Estimated power [W] >  -1.13
+|   |   |   |   |   |   |   |   |--- num__Tool wear [min] <= 0.52
+|   |   |   |   |   |   |   |   |   |--- num__Torque [Nm] <= -1.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- num__Torque [Nm] >  -1.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- num__Tool wear [min] >  0.52
+|   |   |   |   |   |   |   |   |   |--- num__Temperature difference [K] <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- num__Temperature difference [K] >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Estimated power [W] >  -1.10
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__Tool wear [min] >  1.49
+|   |   |   |   |   |--- num__Process temperature [K] <= -0.98
+|   |   |   |   |   |   |--- num__Process temperature [K] <= -1.12
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Process temperature [K] >  -1.12
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- num__Process temperature [K] >  -0.98
+|   |   |   |   |   |   |--- num__Air temperature [K] <= -0.96
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Air temperature [K] >  -0.96
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- num__Torque [Nm] >  1.70
+|   |   |   |   |--- num__Estimated power [W] <= 2.53
+|   |   |   |   |   |--- num__Wear torque [minNm] <= 2.12
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- num__Wear torque [minNm] >  2.12
+|   |   |   |   |   |   |--- num__Rotational speed [rpm] <= -0.80
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- num__Rotational speed [rpm] >  -0.80
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__Estimated power [W] >  2.53
+|   |   |   |   |   |--- class: 1
+|   |--- num__Tool wear [min] >  1.52
+|   |   |--- num__Wear torque [minNm] <= 2.36
+|   |   |   |--- num__Estimated power [W] <= 0.87
+|   |   |   |   |--- num__Temperature difference [K] <= 1.51
+|   |   |   |   |   |--- num__Tool wear [min] <= 1.99
+|   |   |   |   |   |   |--- num__Torque [Nm] <= 0.58
+|   |   |   |   |   |   |   |--- num__Rotational speed [rpm] <= -0.62
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- num__Rotational speed [rpm] >  -0.62
+|   |   |   |   |   |   |   |   |--- num__Estimated power [W] <= 0.52
+|   |   |   |   |   |   |   |   |   |--- num__Torque [Nm] <= -1.63
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- num__Torque [Nm] >  -1.63
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- num__Estimated power [W] >  0.52
+|   |   |   |   |   |   |   |   |   |--- num__Tool wear [min] <= 1.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- num__Tool wear [min] >  1.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Torque [Nm] >  0.58
+|   |   |   |   |   |   |   |--- num__Process temperature [K] <= -0.24
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- num__Process temperature [K] >  -0.24
+|   |   |   |   |   |   |   |   |--- num__Wear torque [minNm] <= 1.87
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- num__Wear torque [minNm] >  1.87
+|   |   |   |   |   |   |   |   |   |--- num__Process temperature [K] <= 1.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- num__Process temperature [K] >  1.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- num__Tool wear [min] >  1.99
+|   |   |   |   |   |   |--- num__Tool wear [min] <= 2.02
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- num__Tool wear [min] >  2.02
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__Temperature difference [K] >  1.51
+|   |   |   |   |   |--- num__Estimated power [W] <= -0.66
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- num__Estimated power [W] >  -0.66
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- num__Estimated power [W] >  0.87
+|   |   |   |   |--- num__Wear torque [minNm] <= 1.90
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__Wear torque [minNm] >  1.90
+|   |   |   |   |   |--- class: 0
+|   |   |--- num__Wear torque [minNm] >  2.36
+|   |   |   |--- cat__Type_H <= 0.50
+|   |   |   |   |--- cat__Type_M <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cat__Type_M >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cat__Type_H >  0.50
+|   |   |   |   |--- class: 0

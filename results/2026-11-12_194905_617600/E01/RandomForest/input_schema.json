@@ -1,0 +1,12 @@
+{
+  "columns": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "engineered_features": true,
+  "engineering": "Integrated in saved pipeline; pass raw sensor columns directly."
+}
