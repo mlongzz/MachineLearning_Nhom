@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "verified_models": 17,
+  "models": [
+    "E00/Dummy",
+    "E00/LogisticRegression",
+    "E00/DecisionTree",
+    "E00/RandomForest",
+    "E00/GradientBoosting",
+    "E01/LogisticRegression",
+    "E01/DecisionTree",
+    "E01/RandomForest",
+    "E01/GradientBoosting",
+    "E02/LogisticRegression",
+    "E02/DecisionTree",
+    "E02/RandomForest",
+    "E02/GradientBoosting",
+    "E03/LogisticRegression",
+    "E03/DecisionTree",
+    "E03/RandomForest",
+    "E03/GradientBoosting"
+  ],
+  "checks": [
+    "disjoint complete split",
+    "validation row IDs and labels",
+    "saved-model predictions from raw input",
+    "probabilities",
+    "all validation metrics",
+    "train F1",
+    "best CV mean F1"
+  ],
+  "test_evaluated": false
+}
