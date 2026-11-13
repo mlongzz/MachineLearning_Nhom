@@ -1,0 +1,14 @@
+{
+  "model__n_estimators": [
+    100,
+    200
+  ],
+  "model__learning_rate": [
+    0.05,
+    0.1
+  ],
+  "model__max_depth": [
+    2,
+    3
+  ]
+}

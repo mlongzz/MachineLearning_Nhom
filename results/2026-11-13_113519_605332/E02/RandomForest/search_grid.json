@@ -1,0 +1,14 @@
+{
+  "model__n_estimators": [
+    150,
+    300
+  ],
+  "model__max_depth": [
+    null,
+    10
+  ],
+  "model__min_samples_leaf": [
+    1,
+    2
+  ]
+}

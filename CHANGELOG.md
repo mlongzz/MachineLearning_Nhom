@@ -1,5 +1,17 @@
 # Nhật ký đồ án
 
+## 13/11/2026
+
+**Đã làm**
+
+- Tổng hợp và đối chiếu kết quả 17 mô hình từ các đợt E00, E01, E02 và E03; kiểm tra lại dữ liệu đầu vào, nhãn, phép chia validation và mức độ đồng bộ giữa log, dự đoán và ma trận nhầm lẫn.
+- Rà soát lại cấu trúc lưu trữ mô hình, các file kết quả và minh chứng EDA để đảm bảo có thể tái lập và kiểm tra dễ dàng.
+- Cập nhật nhật ký công việc và chuẩn bị nền tảng cho bản tổng kết cuối cùng của dự án.
+
+**Kết quả:** các kiểm tra đồng bộ và thực thi hiện hành vẫn ổn định; Gradient Boosting E01/E03 duy trì F1 validation 0,9149, Recall 0,8431. Chưa có đánh giá độc lập trên tập test.
+
+**Minh chứng:** [Tóm tắt kết quả](results/2026-11-12_194905_617600/SUMMARY.md), [log thí nghiệm](results/2026-11-12_194905_617600/experiment_log.csv), [kiểm chứng mô hình](results/2026-11-12_194905_617600/verification.json), [EDA và minh chứng thuật toán](results/2026-11-12_194905_617600/).
+
 ## 12/11/2026
 
 - Chạy 17 mô hình gồm 5 baseline E00 và 12 mô hình E01–E03; lưu mô hình, dự đoán validation, độ đo và ma trận nhầm lẫn.
